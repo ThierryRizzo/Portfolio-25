@@ -1,0 +1,31 @@
+:root {
+  /* BackGrounds */
+  --dk-bg: #f4f4f4;
+  --og-bg: #ff6f00;
+  --pl-bg: #ffdebd;
+
+  /* Cores de Textos */
+  --gr-text: #5c5c5c;
+  --dk-text: #2e2e2e;
+
+  /* Fontes de Textos */
+  --nav-font-family: Montserrat, sans-serif;
+
+  --title-font-family: inter, sans-serif;
+  --title-font-size: 60px;
+  --title-font-weight: bold;
+
+  --subtitle-font-family: inter, sans-serif;
+  --subtitle-font-size: 40px;
+  --subtitle-font-weight: bold;
+
+  --description-font-family: inter, sans-serif;
+  --description-font-size: 16px;
+  --description-font-weight: 400;
+
+  --hw-font-family: "Jesco3 Handwriting";
+  --hw-font-size: 24px;
+
+  --bhw-font-family: "Jesco3 Handwriting";
+  --bhw-font-size: 32px;
+}

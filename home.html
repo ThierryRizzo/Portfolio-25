@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/homestyle.css">
+
+    <title>Meu Portifolio</title>
+</head>
+
+<body>
+    <header>
+        <nav class="Menu_Bar">
+            <div class="container">
+                <div class="Menu_Content">
+                    <div class="M_Logo">
+                        <img src="images/TR.png" alt="Logo TR">
+                    </div>
+
+                    <div class="M_Options">
+                        <ul>
+                            <li><a class="active" href="#home">Home</a></li>
+                            <li><a href="#Projects">Projetos</a></li>
+                            <li><a href="#Contact">Contato</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="Hamburguer">
+                        <div class="Hamburguer_IMG" onclick="toggleMenu()">
+                            <img src="images/Hamburguer.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div id="mobileMenu" class="Mobile_Menu">
+            <a href="#home" class="btn_home">Home</a>
+            <a href="#Projects" class="btn_projetos">Projetos</a>
+            <a href="#Contact" class="btn_contato">Contato</a>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section id="home">
+            <div class="about_me">
+                <div class="description_content">
+
+                    <div class="img_about">
+                        <img class="desktop-img" src="images/IMG Hero Desktop.jpeg" alt="Imagem sobre mim Desktop" />
+                        <img class="tablet-img" src="images/IMG Hero.jpeg" alt="Imagem sobre mim Mobile" />
+                        <img class="mobile-img" src="images/IMG Hero Mobile.jpeg" alt="Imagem sobre mim Mobile" />
+                    </div>
+
+
+                </div>
+
+                <div class="personal-tastes">
+                    <div class="personal-texts" id="toggle-button">
+                        <div class="open-texts">
+                            <h3 id="title-toggle">Curto bastante</h3>
+                            <span id="arrow-icon">
+                                <img id="arrow-img" src="images/bottom-arrow.png" alt="Seta">
+                            </span>
+                        </div>
+
+                        <div class="hidden-text" id="hidden-content">
+                            <ul>
+                                <li>Dire Straits</li>
+                                <li>Fórmula 1</li>
+                                <li>Arte</li>
+                                <li>Star Wars</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="Skill_section" id="home">
+            <div class="Skill_Resume">
+                <div class="Skill_Title">
+                    <h3>Minhas Habilidades</h3>
+                </div>
+                <div class="Skill_Texts">
+                    <div class="Skill_Board Desing">
+                        <div class="Skill_Icon">
+                            <span><img src="images/DE.png" alt=""></span>
+                            <h3>Design Estratégico</h3>
+                        </div>
+                        <p>Busco alinhar design aos objetivos do negócio, sempre levando em conta o usuário e as
+                            métricas da empresa.</p>
+                    </div>
+
+                    <div class="Skill_Board UX">
+                        <div class="Skill_Icon">
+                            <span><img src="images/lup.png" alt=""></span>
+                            <h3>UX Research</h3>
+                        </div>
+                        <p>Procuro sempre investigar e entender as necessidades, comportamentos e expectativas dos
+                            usuários para entregar uma experiência satisfatória e atrativa.</p>
+                    </div>
+
+
+                    <div class="Skill_Board Visual">
+                        <div class="Skill_Icon">
+                            <span class="icon-group">
+                                <img src="images/trac.png" alt="">
+                                <img src="images/lap.png" alt="">
+                            </span>
+                            <h3>Visual Design</h3>
+                        </div>
+
+                        <p>Gosto de criar e melhorar interfaces deixando-as intuitivas e atraentes para melhorar a
+                            experiência do usuário em plataformas digitais.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Curio">
+                <div class="img_Curio">
+                    <img src="images/CurioIMG.png" alt="">
+                </div>
+
+                <div class="Curio_Texts">
+                    <div class="Curio_Title">
+                        <span><img src="images/Line 4.png" alt="Linha do Titulo Curiosidade"></span>
+                        <h3>Curiosidade</h3>
+                    </div>
+
+                    <p>Antes de me aprofundar em UX, tive experiência com desenvolvimento iOS, criando apps com Swift,
+                        UIKit e SwiftUI.
+                        <br> <br>
+                        Essa experiência me ensinou a pensar além do design, garantindo que minhas soluções sejam não
+                        apenas bonitas, mas também viáveis para implementação.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="Project_Section" id="Projects">
+            <div class="Project_Title">
+                <h3>Descubra alguns dos <br> meus projetos</h3>
+            </div>
+
+            <div class="Project_Board">
+                <div class="IMG_Board"><img src="images/img-Robotic-home.png" alt=""></div>
+                <div class="IMG_Board_tablet"><img src="images/img-Robotic-home tablet.png" alt=""></div>
+                <div class="IMG_Board_mobile"><img src="images/Robotic-home mobile.png" alt=""></div>
+                <div class="Project_Text Robotic_Project">
+                    <h3>Robotic Search</h3>
+                    <p>Robotic Search é um app voltado para a comunidade de robótica, permitindo que usuários
+                        compartilhem projetos, criem grupos e comprem peças de robótica.</p>
+                    <a href="SubPages/Robotic_Search.html"><button>Ver Detalhes</button></a>
+                </div>
+            </div>
+            <div class="Project_Board">
+                <div class="IMG_Board"><img src="images/img-Mage-home.png" alt=""></div>
+                <div class="IMG_Board_tablet"><img src="images/img-Mage-home tablet.png" alt=""></div>
+                <div class="IMG_Board_mobile"><img src="images/img-Mage-3 mobile.png" alt=""></div>
+                <div class="Project_Text Mage_Project">
+                    <h3>Mage Bank</h3>
+                    <p>O Mage é um banco digital inovador, focado em criptomoedas e investimentos.</p>
+                    <a href="SubPages/Mage_Bank.html"><button>Ver Detalhes</button></a>
+                </div>
+            </div>
+            <div class="Project_Board">
+                <div class="IMG_Board"><img src="images/img-Senai-home.png" alt=""></div>
+                <div class="IMG_Board_tablet"><img src="images/img-Senai-home tablet.png" alt=""></div>
+                <div class="IMG_Board_mobile"><img src="images/Senai-home mobile.png" alt=""></div>
+                <div class="Project_Text Senai_Project">
+                    <h3>Senai Dendê Projetos</h3>
+                    <p>O Senai Dendê Projetos é uma plataforma web desenvolvida para otimizar a gestão de projetos
+                        acadêmicos e institucionais.</p>
+                    <a href="SubPages/Senai_Dende.html"><button>Ver Detalhes</button></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="Contact_Section" id="Contact">
+            <div class="Contat_Title">
+                <h3>Contato</h3>
+            </div>
+            <div class="Contact_Options">
+
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=thierryrizzofranco@gmail.com&su=Contato%20via%20Site&body=Olá%2C%20Thierry!" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+                <div class="Contact_Texts">
+                    <div class="Text_collumn">
+                        <img src="images/email.png" alt="">
+                        <p>Entre em contato comigo através do E-mail!!</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/thierry-rizzo-ux" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+                <div class="Contact_Texts">
+                    <div class="Text_collumn">
+                        <img src="images/linke.png" alt="">
+                        <p>Acompanhe a minha criação de conteúdo no Linkedin.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://github.com/ThierryRizzo" target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+                <div class="Contact_Texts">
+                    <div class="Text_collumn">
+                        <img src="images/git.png" alt="">
+                        <p>Acesse o meu Github e descubra alguns dos meus projetos.</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://wa.me/5571999403361?text=Ol%C3%A1%2C%20Thierry!%20Encontrei%20seu%20site%20e%20gostei%20bastante%20do%20seu%20trabalho.%20Podemos%20conversar%20melhor%3F%20Gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os." target="_blank" rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+                <div class="Contact_Texts">
+                    <div class="Text_collumn">
+                        <img src="images/zap.png" alt="">
+                        <p>Fique à vontade para entrar em contato comigo por Whatsapp!</p>
+                    </div>
+                </div>
+            </a>
+
+
+            </div>
+            <div class="Copy_Info">
+                <div class="Copy_Text">
+                    <h3>Copyright © thierryrizzo.com.br Todos os direitos reservados.</h3>
+                    <div class="tr_end">
+                        <img src="images/TR.png" alt="Logo TR">
+
+                    </div>
+
+                </div>
+        </section>
+    </footer>
+
+    <script src="home.js"></script>
+    <script src="https://c.webfontfree.com/c.js?f=Jesco3Handwriting" type="text/javascript"></script>
+
+</body>
+
+</html>

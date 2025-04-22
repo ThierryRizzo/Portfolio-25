@@ -1,0 +1,161 @@
+body {
+  background-color: #f4f4f4;
+}
+.Menu_Bar {
+  width: 100%;
+  height: 4rem;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #f4f4f4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.Menu_Content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 1.5rem;
+}
+
+.container {
+  width: 97%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.M_Options {
+  display: flex;
+  align-items: center;
+  width: 22.125rem;
+  height: 1.5rem;
+}
+
+.M_Options ul {
+  display: flex;
+  flex-direction: row;
+  gap: 3.75rem;
+}
+
+.M_Options a {
+  text-decoration: none;
+  color: #a5a5a5;
+  font-family: var(--nav-font-family);
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.M_Logo img {
+  width: 2.75rem;
+  height: 1.375rem;
+}
+
+.Hamburguer {
+  display: none;
+}
+
+.Mobile_Menu {
+  display: none;
+}
+
+/* MENU HAMBURGER */
+
+.Hamburguer {
+  display: none;
+}
+
+.Hamburguer img {
+  width: 22px;
+  height: 18px;
+}
+
+.Mobile_Menu {
+  font-family: var(--nav-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--dk-text);
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 1.25rem 1rem 1.25rem 0;
+  background-color: white;
+  text-align: right;
+  border-bottom: 2px #f4f4f4;
+  position: fixed;
+  top: 3rem;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease;
+}
+
+.Mobile_Menu.open {
+  max-height: 20rem;
+  opacity: 1;
+  visibility: visible;
+}
+
+.hidden {
+  display: none;
+}
+
+.Mobile_Menu a {
+  text-decoration: none;
+  color: #2e2e2e;
+}
+
+nav ul li a.active {
+  color: var(--dk-text);
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1440px) {
+  .Menu_Content {
+    max-width: 67.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .Menu_Content {
+    max-width: 48.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .M_Options a {
+    font-size: 16px;
+  }
+  .M_Logo img {
+    width: 44px;
+    height: 22px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .Hamburguer {
+    display: flex;
+  }
+
+  .M_Options {
+    display: none;
+  }
+
+  .Menu_Content {
+    padding: 0 10px;
+  }
+
+  .Menu_Bar {
+    padding: 10px;
+    height: 3rem;
+  }
+}
